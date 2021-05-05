@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
 
-  const [addIssue, setAddIssue] = useState(false);
+  const [addIssue, setAddIssue] = useState(true);
 
   return (
     <div className="App">
