@@ -1,0 +1,14 @@
+.current-issues p{
+    text-align: left;
+    color: #707070;
+}
+
+
+.current-issues p span{
+    display: inline-block;
+    margin-left: 20px;
+}
+.current-issues p span,
+.current-issues .description-text{
+    color: #959595;
+}
