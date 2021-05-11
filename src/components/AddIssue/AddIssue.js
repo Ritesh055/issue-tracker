@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
 import "./AddIssue.css"
 
-
 function AddIssue() {
 
   const [addIssue, setAddIssue] = useState(true);
@@ -16,7 +15,7 @@ function AddIssue() {
             <label>
                 Assign To
                 <select name ="forDev" id="forDev">
-                    <option value="" disabled selected hidden>Assign Issue to</option>                    
+                    <option value="" disabled selected hidden> </option>                    
                     <option value="Ritesh">Ritesh</option>
                     <option value="Raj">Raj</option>
                     <option value="Mohammad">Mohammad</option>
@@ -27,7 +26,7 @@ function AddIssue() {
             <label>
                 Priority
                 <select name ="priority" id="priority" >
-                    <option value="" disabled selected hidden>Select Priority Level</option>                
+                    <option value="" disabled selected hidden> </option>                
                     <option value="Low">Low</option>
                     <option value="Medium">Medium</option>
                     <option value="High">High</option>
